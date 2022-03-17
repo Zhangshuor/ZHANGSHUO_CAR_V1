@@ -123,10 +123,15 @@ int main(void)
 //        } else if (state==GPIO_PIN_SET){
 //            // 如果高电平，灭LED；
 //            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
-/*****************************串口发送数据(只发一个)**************************************/
-        //定义一个数据
-        uint8_t data[] = "hello";
-        HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
+///*****************************串口发送数据(一直发)**************************************/
+//        //定义一个数据
+//        uint8_t data[] = "hello";
+//        HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
+/********************************接收串口数据*******************************************/
+        uint8_t data[20]={0};
+        HAL_UART_Receive(&huart1,data, sizeof(data),3000);
+        // 打印收到的数据
+        HAL_UART_Transmit(&huart1,data,1,3000);
 //        }
 
     }
