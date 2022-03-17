@@ -101,13 +101,25 @@ int main(void)
 //        HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
 //        HAL_Delay(3000);
         /****************************响_蜂鸣器**********************************/
-        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_SET);
-        //延迟两秒钟
-        HAL_Delay(1000);
-        /*停_蜂鸣器*/
-        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_RESET);
-        //延迟两秒钟
-        HAL_Delay(1000);
+//        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_SET);
+//        //延迟两秒钟
+//        HAL_Delay(1000);
+//        /*停_蜂鸣器*/
+//        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_RESET);
+//        //延迟两秒钟
+//        HAL_Delay(1000);
+        /***************************开关按钮*********************************************/
+        //读取开关按钮状态
+        GPIO_PinState state = HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8);
+
+        if (state==GPIO_PIN_RESET){
+            // 如果低电平，亮LED；
+            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_RESET);
+        } else if (state==GPIO_PIN_SET){
+            // 如果高电平，灭LED；
+            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
+        }
+
     }
   /* USER CODE END 3 */
 }
