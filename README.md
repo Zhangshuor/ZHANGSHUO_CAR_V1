@@ -141,7 +141,7 @@ HAL_Delay(500);
 
 - 并行通讯：而并行通讯一般是指使用 8、16、32及 64 根或更多的数据线进行传输的通讯方式。
 
-  ![1647517382061](C:\Users\29976\AppData\Roaming\Typora\typora-user-images\1647517382061.png)
+![image](https://user-images.githubusercontent.com/78637328/158810087-882ce6b1-b267-4f25-97bc-7b2d3357093f.png)
   
   
   
@@ -163,7 +163,7 @@ HAL_Delay(500);
 | 半双工 | 两个设备之间可以收发数据，但是不能在同一时刻进行  |
 | 单工 | 在任何时刻都只能进行一个方向的通讯，即以恶搞固定为发送设备，另一个固定为接收设备（遥控器这种） |
 
-![1647518331694](C:\Users\29976\AppData\Roaming\Typora\typora-user-images\1647518331694.png)
+![image](https://user-images.githubusercontent.com/78637328/158810071-5a0e285f-724d-443e-a0b5-f893f7a8abea.png)
 
 #### 同步通信和异步通信
 
@@ -173,9 +173,9 @@ HAL_Delay(500);
 
 
 
-![1647518402595](C:\Users\29976\AppData\Roaming\Typora\typora-user-images\1647518402595.png)
+![image](https://user-images.githubusercontent.com/78637328/158810040-4df71514-6da4-423a-bd1c-2ee7e1378e61.png)
 
-![1647518420558](C:\Users\29976\AppData\Roaming\Typora\typora-user-images\1647518420558.png)
+![image](https://user-images.githubusercontent.com/78637328/158810028-a37104c8-879f-4816-9764-5c2b90d1838e.png)
 
 #### 通讯速率
 
@@ -226,7 +226,7 @@ $115200bit=115200/8/1024kb=14.0625kb$
 
 **数据包组成**
 
-![1647519874305](C:\Users\29976\AppData\Roaming\Typora\typora-user-images\1647519874305.png)
+![image](https://user-images.githubusercontent.com/78637328/158809997-4cb49a80-6d29-4965-9895-d5a9caacd149.png)
 
 举个例子（随便写的，只是示意），比如传两个数据：
 
