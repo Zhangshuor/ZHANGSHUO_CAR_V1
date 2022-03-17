@@ -1,4 +1,5 @@
 # ZHANGSHUO_CAR_V1 此工程用来记录无人小车的驱动部分(STM32开发)
+
 ## 所使用单片机和环境说明：
 ### 所使用的单片机：
 
@@ -19,6 +20,7 @@
 上面的安装工作完成之后，我们就可以进入STM32开发的工作中啦！
 
 ## 项目创建：
+
 可以使用STM32CubeMX创建工程
 ### 选择芯片：
 前面也说到了，该工程使用的单片机为STM32F103VET6,在搜索栏搜STM32F103VETx双击创建
@@ -42,9 +44,9 @@
 ### 生成代码
 ![image](https://user-images.githubusercontent.com/78637328/158758883-90e2a0d4-9083-47c4-bcd1-7ba2f705da58.png)
 到此为止一个最基本的工程创建就完成了！
-## 敲项目
+### 敲项目
 用代码编辑工具（vs,clion,...都可）就可以愉快的玩耍了！
-## 烧录程序：
+### 烧录程序：
 <img width="536" alt="image" src="https://user-images.githubusercontent.com/78637328/158759303-c6c2e840-14ac-4219-8119-53c9bfd16314.png">
 
 - port:选择连接STM32的串口，可在电脑设备管理器中查询
@@ -53,7 +55,10 @@
 - 最下面选择：DTR的电平复位，RTS高电平进BootLoader
 
 以上就是开发下位机的一个大概流程，后面的各个模块驱动由下面给出：
-## LED小灯的控制
+
+## 功能编写
+
+### LED小灯的控制
 ![image](https://user-images.githubusercontent.com/78637328/158760229-9b36bd77-cf6a-47f6-b6a1-844168ac040b.png)
 
 根据原理图可以知道LED小灯由PE10引脚控制，在STM32CubeMx中将PE10引脚设置为输出
@@ -78,7 +83,7 @@ HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
 HAL_Delay(500);
 ```
 这段程序可以在main函数中查看到
-## 蜂鸣器的控制
+### 蜂鸣器的控制
 
 ![image](https://user-images.githubusercontent.com/78637328/158761139-415a5910-2935-43b3-8eef-82c723824b0b.png)
 
@@ -93,12 +98,33 @@ HAL_Delay(500);
         //延迟两秒钟
         HAL_Delay(1000);
 ```
+上面的小灯和蜂鸣器的实验都是拿引脚作为输出来使用，接下来来实现一下引脚作为输入的功能：
+### 开关的使用
+我们使用GPIO来读取开关状态，其实就是要读取IO口的电平变化
 
+1.查看原理图：
 
+![image](https://user-images.githubusercontent.com/78637328/158765025-cc903ce2-955d-4158-8ceb-8cfea45ebcfb.png)
 
+2.配置STM32的IO口：
 
+我们可以看到，我们将要使用8号引脚作为输入
 
+![image](https://user-images.githubusercontent.com/78637328/158765146-d504ad69-6f58-430e-8bdc-2ef7f0002fbe.png)
 
+3.在main中编写逻辑：
 
+```c
+        /***************************开关按钮*********************************************/
+        //读取开关按钮状态
+        GPIO_PinState state = HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8);
 
+        if (state==GPIO_PIN_RESET){
+            // 如果低电平，亮LED；
+            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_RESET);
+        } else if (state==GPIO_PIN_SET){
+            // 如果高电平，灭LED；
+            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
+```
 
+使得按下开关按钮，灯灭；松开开关按钮，灯亮.
