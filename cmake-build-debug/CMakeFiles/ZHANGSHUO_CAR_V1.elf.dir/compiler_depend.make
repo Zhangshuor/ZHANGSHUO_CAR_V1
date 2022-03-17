@@ -33,7 +33,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Core/Inc/main.h \
@@ -67,8 +68,10 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
-  ../Core/Inc/gpio.h \
-  ../Core/Inc/main.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
+  ../Core/Inc/usart.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/gpio.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c \
   ../Core/Inc/main.h \
@@ -101,7 +104,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Sr
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c \
   ../Core/Inc/main.h \
@@ -135,6 +139,7 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
   ../Core/Inc/stm32f1xx_it.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c \
@@ -212,7 +217,43 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+
+CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c \
+  ../Core/Inc/usart.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  ../Core/Inc/stm32f1xx_hal_conf.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h \
+  ../Drivers/CMSIS/Include/core_cm3.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdint.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_default_types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/features.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/_newlib_version.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_intsup.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -244,7 +285,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -276,7 +318,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -308,7 +351,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -340,7 +384,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -372,7 +417,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -404,7 +450,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -436,7 +483,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -468,7 +516,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -500,7 +549,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -532,7 +582,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -564,7 +615,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -596,7 +648,8 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
@@ -628,7 +681,41 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+
+CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  ../Core/Inc/stm32f1xx_hal_conf.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h \
+  ../Drivers/CMSIS/Include/core_cm3.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdint.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_default_types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/features.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/_newlib_version.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_intsup.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_timespec.h:
@@ -664,8 +751,6 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/s
 ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h:
 
 ../Drivers/CMSIS/Include/core_cm3.h:
-
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/stdlib.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_default_types.h:
 
@@ -723,7 +808,9 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/select.h:
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdlib.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+
+../Core/Inc/usart.h:
 
 ../Core/Src/stm32f1xx_it.c:
 
@@ -765,6 +852,10 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/types.h
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/xlocale.h:
 
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdlib.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/stdlib.h:
+
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/alloca.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/signal.h:
@@ -787,6 +878,8 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/times.h:
 
 ../Core/Src/system_stm32f1xx.c:
 
+../Core/Src/usart.c:
+
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:
 
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c:
@@ -808,3 +901,5 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/times.h:
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c:
 
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c:
+
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c:

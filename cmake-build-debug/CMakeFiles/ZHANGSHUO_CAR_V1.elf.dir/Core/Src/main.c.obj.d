@@ -31,5 +31,7 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj: \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
- C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Core\Inc/gpio.h \
- C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Core\Inc/main.h
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Core\Inc/usart.h \
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Core\Inc/main.h \
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Core\Inc/gpio.h

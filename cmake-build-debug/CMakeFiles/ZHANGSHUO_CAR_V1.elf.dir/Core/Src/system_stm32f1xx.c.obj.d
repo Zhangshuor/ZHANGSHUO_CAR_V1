@@ -29,4 +29,5 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj: \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_cortex.h \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
- C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ C:\Users\29976\Desktop\ZHANGSHUO_CAR_V1\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h

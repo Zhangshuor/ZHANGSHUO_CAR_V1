@@ -111,8 +111,11 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .text.SystemCoreClockUpdate
                 0x00000000       0x94 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .rodata.APBPrescTable
-                0x00000000        0x8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .text.HAL_UART_MspDeInit
+                0x00000000       0x30 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
  .text          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .data          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -355,6 +358,8 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_DeInit
                 0x00000000      0x114 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .text.HAL_GPIO_ReadPin
+                0x00000000        0xe CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_TogglePin
                 0x00000000       0x12 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
@@ -446,12 +451,6 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_DisableCSS
                 0x00000000        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetHCLKFreq
-                0x00000000        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetPCLK1Freq
-                0x00000000       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetPCLK2Freq
-                0x00000000       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_GetOscConfig
                 0x00000000       0xb4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_GetClockConfig
@@ -507,6 +506,123 @@ Discarded input sections
  .comment       0x00000000       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x00000000       0x33 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_EndTxTransfer
+                0x00000000       0x12 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_EndRxTransfer
+                0x00000000       0x32 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Transmit_IT
+                0x00000000       0x60 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_MspInit
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_HalfDuplex_Init
+                0x00000000       0x6a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_LIN_Init
+                0x00000000       0x80 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_MultiProcessor_Init
+                0x00000000       0x8a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_MspDeInit
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_DeInit
+                0x00000000       0x32 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Receive
+                0x00000000       0xe4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Transmit_IT
+                0x00000000       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Transmit_DMA
+                0x00000000       0x8c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_DMAPause
+                0x00000000       0x70 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_DMAResume
+                0x00000000       0x76 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_DMAStop
+                0x00000000       0x64 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UARTEx_ReceiveToIdle
+                0x00000000      0x138 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Abort
+                0x00000000       0xa8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortTransmit
+                0x00000000       0x4e CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortReceive
+                0x00000000       0x6c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_TxCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMATransmitCplt
+                0x00000000       0x30 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_EndTransmit_IT
+                0x00000000       0x1a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_TxHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMATxHalfCplt
+                0x00000000        0xa CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_RxCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_RxHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_ErrorCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMAError
+                0x00000000       0x58 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMAAbortOnError
+                0x00000000       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Abort_IT
+                0x00000000       0xdc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMARxAbortCallback
+                0x00000000       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMATxAbortCallback
+                0x00000000       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortTransmitCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortTransmit_IT
+                0x00000000       0x60 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMATxOnlyAbortCallback
+                0x00000000       0x14 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortReceiveCpltCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_AbortReceive_IT
+                0x00000000       0x84 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMARxOnlyAbortCallback
+                0x00000000       0x16 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UARTEx_RxEventCallback
+                0x00000000        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Receive_IT
+                0x00000000       0xd4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_IRQHandler
+                0x00000000      0x204 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMARxHalfCplt
+                0x00000000       0x1a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_DMAReceiveCplt
+                0x00000000       0x5e CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_LIN_SendBreak
+                0x00000000       0x32 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_MultiProcessor_EnterMuteMode
+                0x00000000       0x32 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_MultiProcessor_ExitMuteMode
+                0x00000000       0x32 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_HalfDuplex_EnableTransmitter
+                0x00000000       0x36 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_HalfDuplex_EnableReceiver
+                0x00000000       0x36 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_GetState
+                0x00000000        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_GetError
+                0x00000000        0x4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Start_Receive_IT
+                0x00000000       0x36 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Receive_IT
+                0x00000000       0x38 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UARTEx_ReceiveToIdle_IT
+                0x00000000       0x60 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Start_Receive_DMA
+                0x00000000       0x78 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Receive_DMA
+                0x00000000       0x38 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UARTEx_ReceiveToIdle_DMA
+                0x00000000       0x60 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text          0x00000000       0x14 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
  .data          0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
  .bss           0x00000000        0x0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
@@ -600,6 +716,7 @@ LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
@@ -613,6 +730,7 @@ LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 LOAD CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 START GROUP
 LOAD d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a
@@ -632,7 +750,7 @@ LOAD d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2
                 0x08000000                g_pfnVectors
                 0x080001e4                . = ALIGN (0x4)
 
-.text           0x080001e4      0xd48
+.text           0x080001e4     0x1050
                 0x080001e4                . = ALIGN (0x4)
  *(.text)
  .text          0x080001e4       0x40 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
@@ -647,245 +765,273 @@ LOAD d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2
                 0x080002e0       0x62 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
                 0x080002e0                SystemClock_Config
  *fill*         0x08000342        0x2 
- .text.main     0x08000344       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ .text.main     0x08000344       0x38 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
                 0x08000344                main
  .text.HAL_MspInit
-                0x0800038c       0x44 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x0800038c                HAL_MspInit
+                0x0800037c       0x44 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0800037c                HAL_MspInit
  .text.NMI_Handler
-                0x080003d0        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003d0                NMI_Handler
+                0x080003c0        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003c0                NMI_Handler
  .text.HardFault_Handler
-                0x080003d2        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003d2                HardFault_Handler
+                0x080003c2        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003c2                HardFault_Handler
  .text.MemManage_Handler
-                0x080003d4        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003d4                MemManage_Handler
+                0x080003c4        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003c4                MemManage_Handler
  .text.BusFault_Handler
-                0x080003d6        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003d6                BusFault_Handler
+                0x080003c6        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003c6                BusFault_Handler
  .text.UsageFault_Handler
-                0x080003d8        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003d8                UsageFault_Handler
+                0x080003c8        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003c8                UsageFault_Handler
  .text.SVC_Handler
-                0x080003da        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003da                SVC_Handler
+                0x080003ca        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003ca                SVC_Handler
  .text.DebugMon_Handler
-                0x080003dc        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003dc                DebugMon_Handler
+                0x080003cc        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003cc                DebugMon_Handler
  .text.PendSV_Handler
-                0x080003de        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003de                PendSV_Handler
+                0x080003ce        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003ce                PendSV_Handler
  .text.SysTick_Handler
-                0x080003e0        0x8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080003e0                SysTick_Handler
+                0x080003d0        0x8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080003d0                SysTick_Handler
  .text.SystemInit
-                0x080003e8        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x080003e8                SystemInit
- *fill*         0x080003ea        0x2 
+                0x080003d8        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080003d8                SystemInit
+ *fill*         0x080003da        0x2 
+ .text.MX_USART1_UART_Init
+                0x080003dc       0x34 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+                0x080003dc                MX_USART1_UART_Init
+ .text.HAL_UART_MspInit
+                0x08000410       0x78 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+                0x08000410                HAL_UART_MspInit
  .text.HAL_InitTick
-                0x080003ec       0x4c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080003ec                HAL_InitTick
+                0x08000488       0x4c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000488                HAL_InitTick
  .text.HAL_Init
-                0x08000438       0x24 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000438                HAL_Init
+                0x080004d4       0x24 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080004d4                HAL_Init
  .text.HAL_IncTick
-                0x0800045c       0x18 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800045c                HAL_IncTick
+                0x080004f8       0x18 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080004f8                HAL_IncTick
  .text.HAL_GetTick
-                0x08000474        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000474                HAL_GetTick
+                0x08000510        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000510                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000480       0x24 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000480                HAL_NVIC_SetPriorityGrouping
+                0x0800051c       0x24 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800051c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080004a4       0x68 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080004a4                HAL_NVIC_SetPriority
+                0x08000540       0x68 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000540                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0800050c       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800050c                HAL_SYSTICK_Config
+                0x080005a8       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080005a8                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000538      0x238 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000538                HAL_GPIO_Init
- .text.HAL_GPIO_ReadPin
-                0x08000770        0xe CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000770                HAL_GPIO_ReadPin
+                0x080005d4      0x238 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x080005d4                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0800077e        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0800077e                HAL_GPIO_WritePin
- *fill*         0x0800078a        0x2 
+                0x0800080c        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800080c                HAL_GPIO_WritePin
  .text.RCC_Delay
-                0x0800078c       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000818       0x2c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x080007b8      0x410 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080007b8                HAL_RCC_OscConfig
+                0x08000844      0x410 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000844                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000bc8       0x6c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000bc8                HAL_RCC_GetSysClockFreq
+                0x08000c54       0x6c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000c54                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08000c34      0x16c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000c34                HAL_RCC_ClockConfig
+                0x08000cc0      0x16c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000cc0                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetHCLKFreq
+                0x08000e2c        0xc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000e2c                HAL_RCC_GetHCLKFreq
+ .text.HAL_RCC_GetPCLK1Freq
+                0x08000e38       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000e38                HAL_RCC_GetPCLK1Freq
+ .text.HAL_RCC_GetPCLK2Freq
+                0x08000e58       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000e58                HAL_RCC_GetPCLK2Freq
+ .text.UART_SetConfig
+                0x08000e78       0x90 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_WaitOnFlagUntilTimeout
+                0x08000f08       0x68 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Init
+                0x08000f70       0x5e CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08000f70                HAL_UART_Init
+ .text.HAL_UART_Transmit
+                0x08000fce       0xd8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08000fce                HAL_UART_Transmit
+ *fill*         0x080010a6        0x2 
  .text.Reset_Handler
-                0x08000da0       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
-                0x08000da0                Reset_Handler
+                0x080010a8       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+                0x080010a8                Reset_Handler
  .text.Default_Handler
-                0x08000de8        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
-                0x08000de8                RTC_Alarm_IRQHandler
-                0x08000de8                EXTI2_IRQHandler
-                0x08000de8                TIM8_TRG_COM_IRQHandler
-                0x08000de8                TIM8_CC_IRQHandler
-                0x08000de8                TIM1_CC_IRQHandler
-                0x08000de8                TIM6_IRQHandler
-                0x08000de8                PVD_IRQHandler
-                0x08000de8                SDIO_IRQHandler
-                0x08000de8                EXTI3_IRQHandler
-                0x08000de8                EXTI0_IRQHandler
-                0x08000de8                I2C2_EV_IRQHandler
-                0x08000de8                ADC1_2_IRQHandler
-                0x08000de8                SPI1_IRQHandler
-                0x08000de8                TAMPER_IRQHandler
-                0x08000de8                TIM8_UP_IRQHandler
-                0x08000de8                DMA2_Channel2_IRQHandler
-                0x08000de8                DMA1_Channel4_IRQHandler
-                0x08000de8                USART3_IRQHandler
-                0x08000de8                RTC_IRQHandler
-                0x08000de8                DMA1_Channel7_IRQHandler
-                0x08000de8                CAN1_RX1_IRQHandler
-                0x08000de8                UART5_IRQHandler
-                0x08000de8                ADC3_IRQHandler
-                0x08000de8                TIM4_IRQHandler
-                0x08000de8                DMA2_Channel1_IRQHandler
-                0x08000de8                I2C1_EV_IRQHandler
-                0x08000de8                DMA1_Channel6_IRQHandler
-                0x08000de8                UART4_IRQHandler
-                0x08000de8                TIM3_IRQHandler
-                0x08000de8                RCC_IRQHandler
-                0x08000de8                TIM1_TRG_COM_IRQHandler
-                0x08000de8                DMA1_Channel1_IRQHandler
-                0x08000de8                Default_Handler
-                0x08000de8                EXTI15_10_IRQHandler
-                0x08000de8                TIM7_IRQHandler
-                0x08000de8                TIM5_IRQHandler
-                0x08000de8                EXTI9_5_IRQHandler
-                0x08000de8                SPI2_IRQHandler
-                0x08000de8                DMA1_Channel5_IRQHandler
-                0x08000de8                EXTI4_IRQHandler
-                0x08000de8                USB_LP_CAN1_RX0_IRQHandler
-                0x08000de8                USB_HP_CAN1_TX_IRQHandler
-                0x08000de8                DMA1_Channel3_IRQHandler
-                0x08000de8                FSMC_IRQHandler
-                0x08000de8                TIM1_UP_IRQHandler
-                0x08000de8                WWDG_IRQHandler
-                0x08000de8                TIM2_IRQHandler
-                0x08000de8                TIM1_BRK_IRQHandler
-                0x08000de8                EXTI1_IRQHandler
-                0x08000de8                DMA2_Channel4_5_IRQHandler
-                0x08000de8                USART2_IRQHandler
-                0x08000de8                I2C2_ER_IRQHandler
-                0x08000de8                DMA1_Channel2_IRQHandler
-                0x08000de8                TIM8_BRK_IRQHandler
-                0x08000de8                CAN1_SCE_IRQHandler
-                0x08000de8                FLASH_IRQHandler
-                0x08000de8                USART1_IRQHandler
-                0x08000de8                SPI3_IRQHandler
-                0x08000de8                I2C1_ER_IRQHandler
-                0x08000de8                USBWakeUp_IRQHandler
-                0x08000de8                DMA2_Channel3_IRQHandler
- *fill*         0x08000dea        0x2 
+                0x080010f0        0x2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+                0x080010f0                RTC_Alarm_IRQHandler
+                0x080010f0                EXTI2_IRQHandler
+                0x080010f0                TIM8_TRG_COM_IRQHandler
+                0x080010f0                TIM8_CC_IRQHandler
+                0x080010f0                TIM1_CC_IRQHandler
+                0x080010f0                TIM6_IRQHandler
+                0x080010f0                PVD_IRQHandler
+                0x080010f0                SDIO_IRQHandler
+                0x080010f0                EXTI3_IRQHandler
+                0x080010f0                EXTI0_IRQHandler
+                0x080010f0                I2C2_EV_IRQHandler
+                0x080010f0                ADC1_2_IRQHandler
+                0x080010f0                SPI1_IRQHandler
+                0x080010f0                TAMPER_IRQHandler
+                0x080010f0                TIM8_UP_IRQHandler
+                0x080010f0                DMA2_Channel2_IRQHandler
+                0x080010f0                DMA1_Channel4_IRQHandler
+                0x080010f0                USART3_IRQHandler
+                0x080010f0                RTC_IRQHandler
+                0x080010f0                DMA1_Channel7_IRQHandler
+                0x080010f0                CAN1_RX1_IRQHandler
+                0x080010f0                UART5_IRQHandler
+                0x080010f0                ADC3_IRQHandler
+                0x080010f0                TIM4_IRQHandler
+                0x080010f0                DMA2_Channel1_IRQHandler
+                0x080010f0                I2C1_EV_IRQHandler
+                0x080010f0                DMA1_Channel6_IRQHandler
+                0x080010f0                UART4_IRQHandler
+                0x080010f0                TIM3_IRQHandler
+                0x080010f0                RCC_IRQHandler
+                0x080010f0                TIM1_TRG_COM_IRQHandler
+                0x080010f0                DMA1_Channel1_IRQHandler
+                0x080010f0                Default_Handler
+                0x080010f0                EXTI15_10_IRQHandler
+                0x080010f0                TIM7_IRQHandler
+                0x080010f0                TIM5_IRQHandler
+                0x080010f0                EXTI9_5_IRQHandler
+                0x080010f0                SPI2_IRQHandler
+                0x080010f0                DMA1_Channel5_IRQHandler
+                0x080010f0                EXTI4_IRQHandler
+                0x080010f0                USB_LP_CAN1_RX0_IRQHandler
+                0x080010f0                USB_HP_CAN1_TX_IRQHandler
+                0x080010f0                DMA1_Channel3_IRQHandler
+                0x080010f0                FSMC_IRQHandler
+                0x080010f0                TIM1_UP_IRQHandler
+                0x080010f0                WWDG_IRQHandler
+                0x080010f0                TIM2_IRQHandler
+                0x080010f0                TIM1_BRK_IRQHandler
+                0x080010f0                EXTI1_IRQHandler
+                0x080010f0                DMA2_Channel4_5_IRQHandler
+                0x080010f0                USART2_IRQHandler
+                0x080010f0                I2C2_ER_IRQHandler
+                0x080010f0                DMA1_Channel2_IRQHandler
+                0x080010f0                TIM8_BRK_IRQHandler
+                0x080010f0                CAN1_SCE_IRQHandler
+                0x080010f0                FLASH_IRQHandler
+                0x080010f0                USART1_IRQHandler
+                0x080010f0                SPI3_IRQHandler
+                0x080010f0                I2C1_ER_IRQHandler
+                0x080010f0                USBWakeUp_IRQHandler
+                0x080010f0                DMA2_Channel3_IRQHandler
+ *fill*         0x080010f2        0x2 
  .text.__libc_init_array
-                0x08000dec       0x48 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x08000dec                __libc_init_array
+                0x080010f4       0x48 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x080010f4                __libc_init_array
  .text.startup.register_fini
-                0x08000e34       0x14 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08000e48        0xc d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
-                0x08000e48                atexit
+                0x0800113c       0x14 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08001150        0xc d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x08001150                atexit
  .text.__libc_fini_array
-                0x08000e54       0x2c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
-                0x08000e54                __libc_fini_array
+                0x0800115c       0x2c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x0800115c                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08000e80        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08000e80                __retarget_lock_acquire_recursive
+                0x08001188        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x08001188                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08000e84        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08000e84                __retarget_lock_release_recursive
+                0x0800118c        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x0800118c                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08000e88       0x8c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08000e88                __register_exitproc
+                0x08001190       0x8c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08001190                __register_exitproc
  *(.glue_7)
- .glue_7        0x08000f14        0x0 linker stubs
+ .glue_7        0x0800121c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08000f14        0x0 linker stubs
+ .glue_7t       0x0800121c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08000f14        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0800121c        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08000f14        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crti.o
-                0x08000f14                _init
- .init          0x08000f18        0x8 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800121c        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crti.o
+                0x0800121c                _init
+ .init          0x08001220        0x8 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08000f20        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crti.o
-                0x08000f20                _fini
- .fini          0x08000f24        0x8 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
-                0x08000f2c                . = ALIGN (0x4)
-                0x08000f2c                _etext = .
+ .fini          0x08001228        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crti.o
+                0x08001228                _fini
+ .fini          0x0800122c        0x8 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
+                0x08001234                . = ALIGN (0x4)
+                0x08001234                _etext = .
 
-.vfp11_veneer   0x08000f2c        0x0
- .vfp11_veneer  0x08000f2c        0x0 linker stubs
+.vfp11_veneer   0x08001234        0x0
+ .vfp11_veneer  0x08001234        0x0 linker stubs
 
-.v4_bx          0x08000f2c        0x0
- .v4_bx         0x08000f2c        0x0 linker stubs
+.v4_bx          0x08001234        0x0
+ .v4_bx         0x08001234        0x0 linker stubs
 
-.iplt           0x08000f2c        0x0
- .iplt          0x08000f2c        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08001234        0x0
+ .iplt          0x08001234        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08000f2c       0x28
-                0x08000f2c                . = ALIGN (0x4)
+.rodata         0x08001234       0x38
+                0x08001234                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
+ .rodata.main.str1.4
+                0x08001234        0x6 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ *fill*         0x0800123a        0x2 
  .rodata.AHBPrescTable
-                0x08000f2c       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08000f2c                AHBPrescTable
+                0x0800123c       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800123c                AHBPrescTable
+ .rodata.APBPrescTable
+                0x0800124c        0x8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800124c                APBPrescTable
  .rodata.HAL_RCC_GetSysClockFreq.str1.4
-                0x08000f3c       0x11 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08000f4d        0x3 
+                0x08001254       0x11 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08001265        0x3 
  .rodata._global_impure_ptr
-                0x08000f50        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x08000f50                _global_impure_ptr
-                0x08000f54                . = ALIGN (0x4)
+                0x08001268        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x08001268                _global_impure_ptr
+                0x0800126c                . = ALIGN (0x4)
 
-.rel.dyn        0x08000f54        0x0
- .rel.iplt      0x08000f54        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0800126c        0x0
+ .rel.iplt      0x0800126c        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08000f54        0x0
-                0x08000f54                __exidx_start = .
+.ARM            0x0800126c        0x0
+                0x0800126c                __exidx_start = .
  *(.ARM.exidx*)
-                0x08000f54                __exidx_end = .
+                0x0800126c                __exidx_end = .
 
-.preinit_array  0x08000f54        0x0
-                0x08000f54                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800126c        0x0
+                0x0800126c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08000f54                PROVIDE (__preinit_array_end = .)
+                0x0800126c                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08000f54        0x8
-                0x08000f54                PROVIDE (__init_array_start = .)
+.init_array     0x0800126c        0x8
+                0x0800126c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08000f54        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0800126c        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08000f58        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x08000f5c                PROVIDE (__init_array_end = .)
+ .init_array    0x08001270        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x08001274                PROVIDE (__init_array_end = .)
 
-.fini_array     0x08000f5c        0x4
-                0x08000f5c                PROVIDE (__fini_array_start = .)
+.fini_array     0x08001274        0x4
+                0x08001274                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000f5c        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x08000f60                PROVIDE (__fini_array_end = .)
-                0x08000f60                _sidata = LOADADDR (.data)
+ .fini_array    0x08001274        0x4 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x08001278                PROVIDE (__fini_array_end = .)
+                0x08001278                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08000f60
+.data           0x20000000      0x43c load address 0x08001278
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -909,44 +1055,47 @@ LOAD d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x0800139c
+.igot.plt       0x2000043c        0x0 load address 0x080016b4
  .igot.plt      0x2000043c        0x0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x2000043c       0x44 load address 0x0800139c
+.bss            0x2000043c       0x88 load address 0x080016b4
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
  .bss           0x2000043c       0x1c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
- .bss.uwTick    0x20000458        0x4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x20000458                uwTick
+ .bss.huart1    0x20000458       0x44 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+                0x20000458                huart1
+ .bss.uwTick    0x2000049c        0x4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x2000049c                uwTick
  *(COMMON)
- COMMON         0x2000045c       0x21 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x2000045c                __lock___atexit_recursive_mutex
-                0x20000460                __lock___arc4random_mutex
-                0x20000464                __lock___env_recursive_mutex
-                0x20000468                __lock___sinit_recursive_mutex
-                0x2000046c                __lock___malloc_recursive_mutex
-                0x20000470                __lock___at_quick_exit_mutex
-                0x20000474                __lock___dd_hash_mutex
-                0x20000478                __lock___tz_mutex
-                0x2000047c                __lock___sfp_recursive_mutex
-                0x20000480                . = ALIGN (0x4)
- *fill*         0x2000047d        0x3 
-                0x20000480                _ebss = .
-                0x20000480                __bss_end__ = _ebss
+ COMMON         0x200004a0       0x21 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x200004a0                __lock___atexit_recursive_mutex
+                0x200004a4                __lock___arc4random_mutex
+                0x200004a8                __lock___env_recursive_mutex
+                0x200004ac                __lock___sinit_recursive_mutex
+                0x200004b0                __lock___malloc_recursive_mutex
+                0x200004b4                __lock___at_quick_exit_mutex
+                0x200004b8                __lock___dd_hash_mutex
+                0x200004bc                __lock___tz_mutex
+                0x200004c0                __lock___sfp_recursive_mutex
+                0x200004c4                . = ALIGN (0x4)
+ *fill*         0x200004c1        0x3 
+                0x200004c4                _ebss = .
+                0x200004c4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000480      0x600 load address 0x0800139c
-                0x20000480                . = ALIGN (0x8)
-                0x20000480                PROVIDE (end = .)
+                0x200004c4      0x604 load address 0x080016b4
+                0x200004c8                . = ALIGN (0x8)
+ *fill*         0x200004c4        0x4 
+                0x200004c8                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x20000680                . = (. + _Min_Heap_Size)
- *fill*         0x20000480      0x200 
-                0x20000a80                . = (. + _Min_Stack_Size)
- *fill*         0x20000680      0x400 
-                0x20000a80                . = ALIGN (0x8)
+                0x200006c8                . = (. + _Min_Heap_Size)
+ *fill*         0x200004c8      0x200 
+                0x20000ac8                . = (. + _Min_Stack_Size)
+ *fill*         0x200006c8      0x400 
+                0x20000ac8                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -971,58 +1120,66 @@ LOAD d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2
  .ARM.attributes
                 0x000000fe       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .ARM.attributes
-                0x0000012b       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000012b       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
  .ARM.attributes
-                0x00000158       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000158       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .ARM.attributes
-                0x00000185       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000185       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000001b2       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000001b2       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x000001df       0x21 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+                0x000001df       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x00000200       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x0000020c       0x2d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .ARM.attributes
-                0x0000022d       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x00000239       0x21 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
  .ARM.attributes
-                0x0000025a       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0000025a       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000287       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x00000287       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000002b4       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x000002b4       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x000002e1       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x000002e1       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x0000030e       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x0000030e       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x0000033b       0x1d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
+                0x0000033b       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000368       0x2d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000395       0x1d d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(ZHANGSHUO_CAR_V1.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x3abe
+.debug_info     0x00000000     0x64c0
  .debug_info    0x00000000      0x43a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000043a      0x51a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000954      0x2fd CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00000c51      0x239 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00000e8a      0x2c9 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00001153      0x897 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x000019ea      0xeac CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00002896      0x75b CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00002ff1      0xaab CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00003a9c       0x22 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+ .debug_info    0x0000043a      0x8c2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000cfc      0x2fd CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00000ff9      0x239 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00001232      0x2c9 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x000014fb      0x8fb CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00001df6      0x897 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x0000268d      0xeac CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00003539      0x75b CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00003c94      0xaab CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x0000473f     0x1d5f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000649e       0x22 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 
-.debug_abbrev   0x00000000     0x10fa
+.debug_abbrev   0x00000000     0x1599
  .debug_abbrev  0x00000000      0x17b CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000017b      0x1df CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000035a      0x12e CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00000488       0xef CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000577      0x151 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x000006c8      0x219 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x000008e1      0x367 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000c48      0x213 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00000e5b      0x28d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000010e8       0x12 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+ .debug_abbrev  0x0000017b      0x1fe CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000379      0x12e CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x000004a7       0xef CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00000596      0x151 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x000006e7      0x1ed CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x000008d4      0x219 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000aed      0x367 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000e54      0x213 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001067      0x28d CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x000012f4      0x293 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00001587       0x12 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 
-.debug_aranges  0x00000000      0x378
+.debug_aranges  0x00000000      0x5a8
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
  .debug_aranges
@@ -1034,60 +1191,72 @@ OUTPUT(ZHANGSHUO_CAR_V1.elf elf32-littlearm)
  .debug_aranges
                 0x000000d0       0x28 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x000000f8       0xe0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000000f8       0x30 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x000001d8       0x90 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000128       0xe0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000268       0x58 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000208       0x90 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x000002c0       0x90 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000298       0x58 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000350       0x28 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+                0x000002f0       0x90 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_aranges
+                0x00000380      0x200 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_aranges
+                0x00000580       0x28 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 
-.debug_ranges   0x00000000      0x378
+.debug_ranges   0x00000000      0x570
  .debug_ranges  0x00000000       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
- .debug_ranges  0x00000010       0x38 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000048       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x00000058       0x50 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x000000a8       0x18 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x000000c0       0xd0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x00000190       0xe0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x00000270       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x000002b8       0xa0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x00000358       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+ .debug_ranges  0x00000010       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000030       0x10 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x00000040       0x50 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x00000090       0x18 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x000000a8       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_ranges  0x000000c8       0xd0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x00000198       0xe0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x00000278       0x48 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x000002c0       0xa0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x00000360      0x1f0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_ranges  0x00000550       0x20 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 
-.debug_line     0x00000000     0x2ff6
+.debug_line     0x00000000     0x5558
  .debug_line    0x00000000      0x2bb CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x000002bb      0x3ed CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000006a8      0x25f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00000907      0x32a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00000c31      0x312 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00000f43      0x5a2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000014e5      0x6f8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00001bdd      0x6b5 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00002292      0xcbf CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00002f51       0xa5 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+ .debug_line    0x000002bb      0x410 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000006cb      0x25f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000092a      0x32a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00000c54      0x312 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00000f66      0x3d8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000133e      0x5a2 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x000018e0      0x6f8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00001fd8      0x6b5 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000268d      0xcbf CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x0000334c     0x2167 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x000054b3       0xa5 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
 
-.debug_str      0x00000000     0x152f
+.debug_str      0x00000000     0x1f84
  .debug_str     0x00000000      0x36a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
                                 0x3c5 (size before relaxing)
- .debug_str     0x0000036a      0x1f6 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
-                                0x4fe (size before relaxing)
- .debug_str     0x00000560       0x7f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x0000036a      0x56c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
+                                0x872 (size before relaxing)
+ .debug_str     0x000008d6       0x7f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x367 (size before relaxing)
- .debug_str     0x000005df       0xdc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00000955       0xdc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                 0x37e (size before relaxing)
- .debug_str     0x000006bb       0x77 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00000a31       0x77 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x35e (size before relaxing)
- .debug_str     0x00000732      0x680 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00000aa8       0x86 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+                                0x7ce (size before relaxing)
+ .debug_str     0x00000b2e      0x680 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x9bf (size before relaxing)
- .debug_str     0x00000db2      0x3e0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x000011ae      0x3e0 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0xadb (size before relaxing)
- .debug_str     0x00001192      0x130 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000158e      0x13f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x548 (size before relaxing)
- .debug_str     0x000012c2      0x219 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x000016cd      0x219 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x72a (size before relaxing)
- .debug_str     0x000014db       0x54 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
+ .debug_str     0x000018e6      0x64a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                                0xdc4 (size before relaxing)
+ .debug_str     0x00001f30       0x54 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/startup/startup_stm32f103xe.s.obj
                                  0x8e (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -1097,33 +1266,38 @@ OUTPUT(ZHANGSHUO_CAR_V1.elf elf32-littlearm)
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_frame    0x00000000      0x8c0
+.debug_frame    0x00000000      0xee4
  .debug_frame   0x00000000       0x38 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/gpio.c.obj
  .debug_frame   0x00000038       0x58 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000090       0x28 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_frame   0x000000b8       0xa8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_frame   0x00000160       0x30 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00000190      0x1cc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x0000035c      0x12c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00000488       0xe8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000570      0x190 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00000700       0x2c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x0000072c       0x5c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000788       0x20 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x000007a8       0x34 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x000007dc       0xb0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x0000088c       0x34 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000190       0x60 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_frame   0x000001f0      0x1cc CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x000003bc      0x12c CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x000004e8       0xe8 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x000005d0      0x190 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00000760      0x5c4 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00000d24       0x2c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00000d50       0x5c d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000dac       0x20 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000dcc       0x34 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00000e00       0xb0 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00000eb0       0x34 d:/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
 
-.debug_loc      0x00000000     0x140e
- .debug_loc     0x00000000       0x2f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj
- .debug_loc     0x0000002f       0x15 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_loc     0x00000044       0xff CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_loc     0x00000143      0x141 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_loc     0x00000284      0x71f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x000009a3      0x45b CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00000dfe      0x610 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+.debug_loc      0x00000000     0x349a
+ .debug_loc     0x00000000       0x15 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_loc     0x00000015       0xff CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_loc     0x00000114       0x84 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj
+ .debug_loc     0x00000198      0x141 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_loc     0x000002d9      0x71f CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_loc     0x000009f8      0x45b CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x00000e53      0x610 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x00001463     0x2037 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj

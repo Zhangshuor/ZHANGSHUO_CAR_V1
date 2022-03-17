@@ -35,6 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/stm32f1xx_it.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/syscalls.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/syscalls.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/system_stm32f1xx.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/usart.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/usart.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
@@ -48,6 +49,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
   "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" "gcc" "CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
   )
 
 # Targets to which this target links.

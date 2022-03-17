@@ -19,6 +19,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -85,8 +86,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+///*****************************串口发送数据(只发一个)**************************************/
+//    //定义一个数据
+//    uint8_t data[] = "hello";
+//    HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,17 +113,21 @@ int main(void)
 //        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_RESET);
 //        //延迟两秒钟
 //        HAL_Delay(1000);
-        /***************************开关按钮*********************************************/
-        //读取开关按钮状态
-        GPIO_PinState state = HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8);
-
-        if (state==GPIO_PIN_RESET){
-            // 如果低电平，亮LED；
-            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_RESET);
-        } else if (state==GPIO_PIN_SET){
-            // 如果高电平，灭LED；
-            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
-        }
+//        /***************************开关按钮*********************************************/
+//        //读取开关按钮状态
+//        GPIO_PinState state = HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8);
+//
+//        if (state==GPIO_PIN_RESET){
+//            // 如果低电平，亮LED；
+//            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_RESET);
+//        } else if (state==GPIO_PIN_SET){
+//            // 如果高电平，灭LED；
+//            HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_SET);
+/*****************************串口发送数据(只发一个)**************************************/
+        //定义一个数据
+        uint8_t data[] = "hello";
+        HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
+//        }
 
     }
   /* USER CODE END 3 */

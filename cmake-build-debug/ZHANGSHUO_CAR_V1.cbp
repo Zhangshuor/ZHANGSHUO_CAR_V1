@@ -106,6 +106,9 @@
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Inc/stm32f1xx_it.h">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Inc/usart.h">
+			<Option target="ZHANGSHUO_CAR_V1.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/gpio.c">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/system_stm32f1xx.c">
+			<Option target="ZHANGSHUO_CAR_V1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Core/Src/usart.c">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
@@ -244,6 +250,9 @@
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="ZHANGSHUO_CAR_V1.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
@@ -281,6 +290,9 @@
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="ZHANGSHUO_CAR_V1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="ZHANGSHUO_CAR_V1.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/29976/Desktop/ZHANGSHUO_CAR_V1/STM32F103VETx_FLASH.ld">
