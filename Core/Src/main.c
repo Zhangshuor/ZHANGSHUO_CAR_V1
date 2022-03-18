@@ -107,6 +107,7 @@ int main(void)
   while (1) {
     /* USER CODE END WHILE */
 
+
     /* USER CODE BEGIN 3 */
         /**********************************CONTROL_LED3*************************************/
 //        HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, GPIO_PIN_RESET);
