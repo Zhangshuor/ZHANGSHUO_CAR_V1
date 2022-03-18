@@ -55,7 +55,13 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t data[20]={0};
+//回调函数：接收usart1串口数据
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+    HAL_UART_Transmit(&huart1,data,1,3000);
+    /*再开启中断*/
+    HAL_UART_Receive_IT(&huart1,data,1);
+}
 /* USER CODE END 0 */
 
 /**
@@ -92,11 +98,13 @@ int main(void)
 //    //定义一个数据
 //    uint8_t data[] = "hello";
 //    HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
+/********************************开启中断*******************************************************/
+  HAL_UART_Receive_IT(&huart1,data,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-    while (1) {
+  while (1) {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -127,14 +135,14 @@ int main(void)
 //        //定义一个数据
 //        uint8_t data[] = "hello";
 //        HAL_UART_Transmit(&huart1,data, sizeof(data),3000);
-/********************************接收串口数据*******************************************/
-        uint8_t data[20]={0};
-        HAL_UART_Receive(&huart1,data, sizeof(data),3000);
-        // 打印收到的数据
-        HAL_UART_Transmit(&huart1,data,1,3000);
-//        }
+///********************************接收串口数据*******************************************/
+//        uint8_t data[20]={0};
+//        HAL_UART_Receive(&huart1,data, sizeof(data),3000);
+//        // 打印收到的数据
+//        HAL_UART_Transmit(&huart1,data,1,3000);
+  }
 
-    }
+
   /* USER CODE END 3 */
 }
 
