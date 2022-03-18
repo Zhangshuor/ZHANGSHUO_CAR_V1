@@ -26,6 +26,9 @@ set(CMAKE_C_STANDARD 11)
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
 
+SET(COMMON_FLAGS "-mcpu=cortex-m3 ${FPU_FLAGS} -mthumb -mthumb- interwork -ffunction-sections -fdata-sections \
+ -g -fno-common -fmessage-length=0 - specs=nosys.specs -specs=nano.specs -u _printf_float")
+
 add_compile_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
 add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
 

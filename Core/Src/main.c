@@ -125,8 +125,9 @@ int main(void)
   while (1) {
       //ÎÂ¶È
 //      printf("temputer:%d\r\n",30);
-    log("temputer:%d",30);
-    HAL_Delay(1000);
+//    log("temputer:%d",30);
+      printf("temputer:%f\r\n",36.5);
+      HAL_Delay(1000);
     /* USER CODE END WHILE */
 
 
