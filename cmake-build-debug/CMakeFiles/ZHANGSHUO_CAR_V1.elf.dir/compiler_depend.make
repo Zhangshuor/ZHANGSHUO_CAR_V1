@@ -71,7 +71,31 @@ CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
   ../Core/Inc/usart.h \
   ../Core/Inc/main.h \
-  ../Core/Inc/gpio.h
+  ../Core/Inc/gpio.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdio.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/_ansi.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/newlib.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/config.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/ieeefp.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/cdefs.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/reent.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/_ansi.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/lock.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/endian.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_endian.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/select.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_sigset.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_timeval.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/timespec.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_timespec.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/sched.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/types.h \
+  D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/ZHANGSHUO_CAR_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c \
   ../Core/Inc/main.h \
@@ -772,9 +796,9 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_intsup.h:
 
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c:
 
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdio.h:
-
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/stdio.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_stdint.h:
 
@@ -812,16 +836,6 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/select.h:
 
 ../Core/Inc/usart.h:
 
-../Core/Src/stm32f1xx_it.c:
-
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/cdefs.h:
-
-../Core/Inc/stm32f1xx_it.h:
-
-../Core/Src/syscalls.c:
-
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/stat.h:
-
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_pthreadtypes.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/_ansi.h:
@@ -834,9 +848,13 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/timespec.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/ieeefp.h:
 
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/sched.h:
+../Core/Inc/stm32f1xx_it.h:
 
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/time.h:
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/cdefs.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/stat.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/_endian.h:
 
@@ -844,11 +862,21 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/reent.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_types.h:
 
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/time.h:
-
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/_timeval.h:
 
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/sched.h:
+
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/types.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/stdio.h:
+
+../Core/Src/stm32f1xx_it.c:
+
+../Core/Src/syscalls.c:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/time.h:
+
+D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/machine/time.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/xlocale.h:
 
@@ -863,10 +891,6 @@ D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/signal.h:
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/errno.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/errno.h:
-
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h:
-
-D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/stdio.h:
 
 D:/gcc-arm-none-eabi-9-2019-q4-major-win32/arm-none-eabi/include/sys/signal.h:
 

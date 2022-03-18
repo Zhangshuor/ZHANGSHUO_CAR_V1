@@ -24,7 +24,24 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#ifdef __GNUC__
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif
+PUTCHAR_PROTOTYPE{
+    // 参数1： 使用哪个usart ,参数2： 字符， 参数3：输出数量， 参数4：超时等待时间
+    HAL_UART_Transmit(&huart1 , (uint8_t *)&ch, 1 , 0xffff);
+    return ch;
+}
 
+#define LOG_ENABLE 1
+#if LOG_ENABLE
+#define log(format,...) printf(format"\r\n",##__VA_ARGS__)
+#else
+#define log(format,...)
+#endif
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,7 +121,12 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   while (1) {
+      //温度
+//      printf("temputer:%d\r\n",30);
+    log("temputer:%d",30);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
 
