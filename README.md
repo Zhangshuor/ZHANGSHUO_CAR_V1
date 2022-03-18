@@ -57,7 +57,7 @@
 以上就是开发下位机的一个大概流程，后面的各个模块驱动由下面给出：
 
 
-功能编写见help文档！！！后续更新
+功能编写见[help](https://github.com/Zhangshuor/ZHANGSHUO_CAR_V1/blob/master/HELP.pdfhttps://github.com/Zhangshuor/ZHANGSHUO_CAR_V1/blob/master/HELP.pdf)文档！！！持续更新
 
 
 
